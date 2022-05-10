@@ -3,37 +3,6 @@ A flutter plugin for scanning QR codes. Use AVCaptureSession in iOS and zxing in
 
 ## Usage
 
-### Use this package as a library
-
-#### Add dependency
-
-Add this to your package's pubspec.yaml file:
-
-```dart
-dependencies:
-  qrcode: ^1.0.5
-```
-
-#### Install it
-
-You can install packages from the command line:
-
-with Flutter:
-
-```
-$ flutter pub get
-```
-
-#### Import it
-
-Now in your Dart code, you can use:
-
-```dart
-import 'package:qrcode/qrcode.dart';
-```
-
-### Basic
-
 ```dart
 class _MyAppState extends State<MyApp> {
   QRCaptureController _captureController = QRCaptureController();
@@ -105,7 +74,6 @@ class _MyAppState extends State<MyApp> {
 
 ### iOS
 To use on iOS, you must add the following to your Info.plist
-
 
 ```
 <key>NSCameraUsageDescription</key>
